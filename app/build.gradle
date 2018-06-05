@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'org.greenrobot.greendao' // apply GreenDAO plugin
 android {
     compileSdkVersion 27
     defaultConfig {
@@ -23,6 +23,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.jude:rollviewpager:1.2.9'
     implementation 'com.android.support:design:27.1.1'
+    implementation 'org.greenrobot:greendao:3.2.2' // add GreenDAO library
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
