@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="四川大学锦城学院"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="         学院实行董事会领导下的院长负责制，在党委书记、院长邹广严教授的率领下，组建起高效务实的管理团队，励精图治，革故鼎新，共谋发展。" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="         同时，学院本着以优秀教师培育优秀学生的理念，实行地区教育资源共享的方针，博采众长，延揽名师，从四川大学等著名高校聘请名师任教，同时广泛聘请国内外著名学者、企业界知名人士任学院名誉教授、客座教授、兼职教授。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/zou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="党委书记 校长 邹广严教授" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="         1968年毕业于天津大学。在大型企业工作，从工人、班长到董事长，积累了丰富的管理经验和广泛的人脉关系；1988年从政，从计委、经委主任到省政府副省长，从事工业交通和经济、社会事业建设领导工作，曾任第八、九、十届四川省人大代表，第九、十届全国人大代表；自1999年起任四川大学工商管理学院院长、四川省工商管理学院院长等职务；现任四川省企业联合会会长、四川省企业家协会会长、四川省高等教育学会名誉会长、中国地产联盟专家委员以及多家大学教授与兼职教授；具有丰富深厚的管理经验、统筹全局的领导才能和高瞻远瞩的战略思维，被评为人民满意的教育家、全国独立学院优秀工作者。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/wang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="副校长 王亚利 教授" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="         毕业于四川大学，曾任四川大学工商管理学院党委书记，现兼任四川省技术经济和管理现代化研究会副理事长，具有丰富的高校教学管理经验、先进的办学理念、创新意识以及对高等教育事业的无私奉献精神。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/liu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="副校长 刘华 教授" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="         毕业于四川大学，曾任四川大学教务处副处长，图书馆总支部书记、副书记、副馆长，多年从事教学管理工作，有丰富的管理经验，工作踏踏实实，有创新意识和奉献精神。" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/zhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="副校长 张明高 教授" />
+
+        <TextView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="         毕业于四川大学，曾任教育部实验教学指导委员会委员，四川省高校实验室工作研究会常务理事，《实验科学与技术》编委以及四川大学实验室及设备管理处副处长等职务，在高校从事教学和管理30余年，具有丰富的高校教学与管理经验、宽广的视野和能结合实际创造性工作的特点。" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

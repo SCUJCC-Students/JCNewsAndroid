@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">锦城头条</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">个性签名：</string>
+    <string name="nav_header_Id">手机号或邮箱</string>
+    <string name="nav_header_sub">自己的个性签名</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_id">ID:</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
