@@ -3,7 +3,177 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="四川大学锦城学院"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="近年来，学校提出教育既要有“适应性”，也要有“前瞻性”的思想，着力建设“未来型学校”，造就“未来型教师”，培养“未来型人才”。
+　　“锦城2025愿景”：使锦城学院成为——
+　　一个应用型、高品质、服务定制化的人才培养基地；
+　　一个智慧型、开放性、资源共享化的深度学习空间；
+　　一个创新型、特色性、充满人文关怀的校园社区；
+　　一个互动型、产教链接、服务地方发展的新型智库；
+　　一个“近者悦、远者来”的百年常青的高等学府。
+"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学校简介"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="四川大学锦城学院是2005年由四川大学申办、经教育部批准成立的全日制普通本科高等学校，是在川大百年老校的基础上建立的高起点、高水平、实现跨越式发展的多学科、综合性的应用型大学。
+　　学校以培养高素质、复合型、经世致用的应用性、未来型人才为目标，致力建设成西部领先、国内一流、国际知名的“一流应用型大学”，建设形成一批高标准、高水平、高质量的“一流应用型专业（群）”。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="办学规模"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="地处成都，占地1500余亩，现有全日制普通本专科学生近20000人，其中，本科生16000余人。"/>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学科专业"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="学校现有财务会计学院、计算机与软件学院、电子信息学院、机械工程学院、建筑学院、土木与环境工程学院、文学与传媒学院、外国语学院、工商管理学院、金融学院、艺术学院共11个二级学院，开设有52个本科专业、18个专科专业、100余个专业方向，形成了文、理、工、经、管、艺等多学科协调发展的办学格局。其中，审计学（ACCA）为四川省内本科一批招生专业，网络与新媒体、软件工程、市场营销为“四川省普通高校应用型本科示范专业”，金融学、会计学、机械设计制造及其自动化、物联网工程为“四川省民办高校重点特色专业质量提升计划项目”。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="师资建设"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="学校延揽名师，组建了一支由知名学者与业内精英相结合的师资队伍。具有高级职称的教师共424人，占比44%，其中教授136人、副教授288人；具有博士、硕士学位的教师有706人，占比73%；双师型教师比例高达64%。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教学设施"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="建有各类实验实训场所（室）53个，其中，现代企业管理实验教学中心、物联网与通信工程实验教学中心获批“省级示范实验教学中心建设项目”。图书馆荣获“四川省高等学校先进图书馆”、“创新与创新管理服务型数字图书馆”等称号，并成为“成都图书馆图书分馆”。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教学科研"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="师生近五年参加各类专业竞赛，获省部级以上奖励近千项；近三年师生专利申报486项。公开出版教材71种；《中国民俗学》、《应用写作》、《创业管理》等获批“省级精品资源共享课程”；《创业学》课程获四川省首批省级创新创业教育示范课程。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="就业前景"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="学校通过平台融合、硬件融合、机制融合、师资融合、教学融合、成果融合的方式，加强与用人单位的深度合作，“锦城学子”广受用人单位欢迎和认可，并逐渐成长为其中的管理者和中流砥柱。学校毕业生就业率历年保持在98%以上，其中高端就业率近50%、创业率近3%，被四川省教育厅授予“四川省普通高校毕业生就业工作先进单位”称号。据调查，校友满意度高达92.63%。"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="考研深造"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:text="学校为有考研意向的学生营造良好的学习氛围和切实有效的考研保障体系，近年来，有近两千名毕业生进入境内外高校继续深造，其中不乏北京大学、复旦大学、同济大学、哈佛大学、哥伦比亚大学、悉尼大学、香港中文大学等知名学府，更有多名学生继续攻读博士学位，成长为各学术领域的精英人才。"/>
+
+
+    </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
