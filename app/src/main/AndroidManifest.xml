@@ -24,6 +24,9 @@
         <activity android:name=".GalleryActivity"></activity>
         <activity android:name=".CameraActivity"></activity>
         <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".XueyuanActivity"></activity>
+        <activity android:name=".LingdaoActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>

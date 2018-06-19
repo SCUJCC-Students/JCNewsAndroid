@@ -3,6 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +15,7 @@
         tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints">
 
-        <EditText
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -22,6 +25,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:layout_marginTop="10dp"
             android:layout_width="351dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -121,5 +125,6 @@
 
     </LinearLayout>
 
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
