@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity
         Fragmentadapter adapter = new Fragmentadapter(getSupportFragmentManager());
         adapter.addFragment(new Fragment1(), "热门推荐");
         adapter.addFragment(new Fragment2(), "院系动态");
-        adapter.addFragment(new Fragment3(), "公告通知");
+        adapter.addFragment(new Fragment3(), "锦城故事");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
