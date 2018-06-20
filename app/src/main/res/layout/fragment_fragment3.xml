@@ -6,11 +6,12 @@
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragment1">
+
     <com.jude.rollviewpager.RollPagerView
         android:id="@+id/roll_view_pager2"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        app:rollviewpager_play_delay="3000"/>
+        app:rollviewpager_play_delay="3000" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/news_recycler_view2"

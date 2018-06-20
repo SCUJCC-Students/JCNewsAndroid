@@ -71,10 +71,10 @@ public class Fragment3 extends Fragment {
 
     private class TestNormalAdapter extends StaticPagerAdapter {
         private int[] imgs = {
-                R.drawable.img1,
-                R.drawable.img2,
-                R.drawable.img3,
-                R.drawable.img4,
+                R.drawable.img5,
+                R.drawable.img6,
+                R.drawable.img7,
+                R.drawable.img8,
         };
 
         @Override
@@ -103,17 +103,17 @@ public class Fragment3 extends Fragment {
 
     private void initNews() {
         for (int i = 0; i<3;i++) {
-            News news1 = new News("我校学生自主制造的第一台3D打印机胜利诞生", "2018-5-23", "aixin", R.drawable.news1);
+            News news1 = new News("我校学生自主制造的第一台3D打印机胜利诞生", "2018-5-23", "aixin", R.drawable.new4);
             newsList.add(news1);
-            News news2 = new News("“锦城创业教育催生最牛“奶霸”  ", "2018-5-23", "aixin", R.drawable.news2);
+            News news2 = new News("“锦城创业教育催生最牛“奶霸”  ", "2018-5-23", "aixin", R.drawable.news5 );
             newsList.add(news2);
-            News news3 = new News("三练三创”结硕果 模拟公司成就学生CEO  ", "2018-5-23", "aixin", R.drawable.news3);
+            News news3 = new News("三练三创”结硕果 模拟公司成就学生CEO  ", "2018-5-23", "aixin", R.drawable.new6);
             newsList.add(news3);
-            News news4 = new News("川大锦城小清新男生寝室走红网络 网友直呼：让女生情何以堪  ", "2018-5-23", "aixin", R.drawable.news3);
+            News news4 = new News("川大锦城小清新男生寝室走红网络 网友直呼：让女生情何以堪  ", "2018-5-23", "aixin", R.drawable.new7);
             newsList.add(news4);
-            News news5 = new News("“锦城好人”最美女孩情暖人间  ", "2018-5-23", "aixin", R.drawable.news3);
+            News news5 = new News("“锦城好人”最美女孩情暖人间  ", "2018-5-23", "aixin", R.drawable.new8);
             newsList.add(news5);
-            News news6 = new News("生死抉择中 舍己救人是青春的感恩和光荣   ", "2018-5-23", "aixin", R.drawable.news3);
+            News news6 = new News("生死抉择中 舍己救人是青春的感恩和光荣   ", "2018-5-23", "aixin", R.drawable.new9);
             newsList.add(news6);
         }
     }
